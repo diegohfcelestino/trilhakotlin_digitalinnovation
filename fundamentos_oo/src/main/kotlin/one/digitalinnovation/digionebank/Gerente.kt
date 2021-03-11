@@ -10,3 +10,5 @@ class Gerente(
 
     override fun login(): Boolean = "senha123" == senha
 }
+
+

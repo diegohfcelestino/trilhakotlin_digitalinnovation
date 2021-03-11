@@ -13,4 +13,8 @@ class Cliente(
         Cpf:      $cpf
         Tipo:     ${clienteTipo.descricao}
     """.trimIndent()
+
+
 }
+
+//teste

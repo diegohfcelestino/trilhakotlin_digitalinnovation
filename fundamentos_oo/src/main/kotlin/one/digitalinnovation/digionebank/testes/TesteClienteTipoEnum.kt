@@ -16,4 +16,8 @@ fun main() {
 
     val pj = ClienteTipo.PJ
     println(">> ${pj.name} - ${pj.descricao}")
+
+
 }
+
+
