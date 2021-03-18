@@ -1,5 +1,7 @@
 package one.digitalinnovation.collections
 
+
+//estanciamos separado para usar em dois arquivos
 data class Funcionario(
     val nome: String,
     val salario: Double,
