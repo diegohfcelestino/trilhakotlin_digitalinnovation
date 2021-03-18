@@ -10,6 +10,7 @@ fun main() {
     }
     println("---------------------")
 
+    //aqui ordenamos para printar
     values.sort()
     values.forEach {
         println(it)
