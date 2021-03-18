@@ -1,32 +1,38 @@
 package one.digitalinnovation.collections
 
 fun main() {
-    val joao = Funcionario("Joao", 2000.0, "CLT")
-    val pedro = Funcionario("Pedro", 1500.0, "PJ")
-    val maria = Funcionario("Maria", 4000.0, "CLT")
+    val lucas = Funcionario("Lucas", 3000.0, "CLT")
+    val tarcisio = Funcionario("Tarcisio", 2500.0, "PJ")
+    val julia = Funcionario("Julia", 5000.0, "CLT")
 
-    println("--------- LIST ---------")
-    val funcionarios = mutableListOf(joao, maria)
+    println("-- LIST --")
+    val funcionarios = mutableListOf(lucas, tarcisio)
     funcionarios.forEach { println(it) }
 
-    println("------------------")
-    funcionarios.add(pedro)
+    println("-----ADD----")
+
+    funcionarios.add(julia)
     funcionarios.forEach { println(it) }
 
-    println("------------------")
-    funcionarios.remove(joao)
+    println("-----REMOVE----")
+
+    funcionarios.remove(lucas)
     funcionarios.forEach { println(it) }
 
-    println("--------- SET ---------")
-    val funcionarioSet = mutableSetOf(joao)
+    println("--- SET ---")
+
+    val funcionarioSet = mutableSetOf(lucas)
     funcionarioSet.forEach { println(it) }
 
-    println("------------------")
-    funcionarioSet.add(pedro)
-    funcionarioSet.add(maria)
+    println("-----ADD----")
+
+    funcionarioSet.add(tarcisio)
+    funcionarioSet.add(lucas)
     funcionarioSet.forEach { println(it) }
 
-    println("------------------")
-    funcionarioSet.remove(maria)
+    println("-----REMOVE----")
+
+    funcionarioSet.remove(julia)
     funcionarioSet.forEach { println(it) }
+
 }
