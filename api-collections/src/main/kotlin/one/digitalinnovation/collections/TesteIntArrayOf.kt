@@ -1,13 +1,15 @@
 package one.digitalinnovation.collections
 
+
+//intArrayOf é mais flexivel para acrescentar itens ao array
 fun main() {
-    val values = intArrayOf(2, 3, 4, 1, 10, 7)
+    val values = intArrayOf(6, 5, 3, 7, 15, 10)
 
     values.forEach {
         println(it)
     }
-
     println("---------------------")
+
     values.sort()
     values.forEach {
         println(it)
