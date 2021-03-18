@@ -1,24 +1,30 @@
 package one.digitalinnovation.collections
 
 fun main() {
-    val joao = Funcionario("Joao", 2000.0, "CLT")
-    val pedro = Funcionario("Pedro", 1500.0, "PJ")
-    val maria = Funcionario("Maria", 4000.0, "CLT")
+    val lucas = Funcionario("Lucas", 3000.0, "CLT")
+    val tarcisio = Funcionario("Tarcisio", 2500.0, "PJ")
+    val julia = Funcionario("Julia", 5000.0, "CLT")
 
-    val funcionarios = listOf(joao, pedro, maria)
+    val funcionarios = listOf(lucas, tarcisio, julia)
 
-    funcionarios.forEach { println(it) }
+    funcionarios.forEach {
+        println(it)
+    }
+    println("----------")
 
-    println("------------------")
-    println(funcionarios.find { it.nome == "Maria" })
+    println(funcionarios.find { it.nome == "Julia" })
 
-    println("------------------")
+    println("----------")
+
     funcionarios
         .sortedBy { it.salario }
         .forEach { println(it) }
 
-    println("------------------")
+    println("----------")
+
     funcionarios
         .groupBy { it.tipoContratacao }
         .forEach { println(it) }
+
+
 }
