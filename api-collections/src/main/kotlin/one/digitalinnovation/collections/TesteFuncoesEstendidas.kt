@@ -2,14 +2,14 @@ package one.digitalinnovation.collections
 
 fun main() {
     val salarios = arrayOf(
-        "2000".toBigDecimal(),
-        "1500".toBigDecimal(),
-        "4000".toBigDecimal()
+        "3000".toBigDecimal(),
+        "2500".toBigDecimal(),
+        "6000".toBigDecimal()
     )
 
-    println("----------------------")
+    println("-------Somatória-------")
     println(salarios.somatoria())
 
-    println("----------------------")
+    println("--------Media-------")
     println(salarios.media())
 }
