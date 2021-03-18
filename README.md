@@ -12,11 +12,11 @@
 
 #### Polimorfismo
 
-#### Int Array
+#### Array do tipo Int, Int Of, String, Double
 
-#### Int Array Of
+#### Operações com Arrays max, min, average, filter, count, find e any
 
-#### Array String
+#### Desenvolvendo listof, mapof e organizando com sortedBy, roupBy e setOf
 
 
 #### Todo o curso com teoria e muita prática com o instrutor Jether Rodrigues
