@@ -18,5 +18,9 @@
 
 #### Desenvolvendo listof, mapof e organizando com sortedBy, roupBy e setOf
 
+#### Desenvolvendo com mutableMapof e pratica com Extensions Functions
+
+
+
 
 #### Todo o curso com teoria e muita prática com o instrutor Jether Rodrigues
