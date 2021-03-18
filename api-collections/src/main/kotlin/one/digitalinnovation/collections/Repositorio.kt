@@ -1,5 +1,6 @@
 package one.digitalinnovation.collections
 
+//recebe T como genérico (banco de dados simples)
 class Repositorio<T> {
     private val map = mutableMapOf<String, T>()
 
